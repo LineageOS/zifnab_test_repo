@@ -1,2 +1,3 @@
 [lfs]
     url = "https://review.lineageos.org/LineageOS/zifnab_test_repo.git/info/lfs"
+    pushurl = "ssh://review.lineageos.org/LineageOS/zifnab_test_repo.git"
