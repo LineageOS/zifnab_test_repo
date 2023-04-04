@@ -42,7 +42,7 @@ jobs:
   verify:
     runs-on: ubuntu-latest
     steps:
-      - uses: lfit/checkout-gerrit-change-action
+      - uses: lfit/checkout-gerrit-change-action@main
         with:
           gerrit-refspec: ${{ inputs.GERRIT_REFSPEC }}
       - uses: actions/setup-python@v2
