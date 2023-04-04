@@ -1,0 +1,14 @@
+name: verify json is valid
+on:
+  workflow_dispatch: {}
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lfit/checkout-gerrit-change-action
+      - uses: actions/setup-python@v2
+        with:
+          python-version: "3.x"
+      - run: python -mjson.tool updater/devices.json
+      - run: python -mjson.tool updater/device_deps.json
+
