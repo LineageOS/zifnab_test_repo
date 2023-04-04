@@ -3,7 +3,7 @@
         "android_device_yandex_Amber",
         "android_kernel_yandex_sdm660",
         "android_packages_resources_devicesettings"
-    ],
+    ],,
     "DRG": [
         "android_device_nokia_DRG",
         "android_device_nokia_sdm660-common",
@@ -20,7 +20,7 @@
     "FP4": [
         "android_device_fairphone_FP4",
         "android_kernel_fairphone_sm7225"
-    ],
+    ],,
     "G": [
         "android_device_10or_G",
         "android_kernel_10or_G"
