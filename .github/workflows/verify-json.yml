@@ -44,7 +44,7 @@ jobs:
     steps:
       - uses: lfit/checkout-gerrit-change-action
         with:
-		  gerrit-refspec: ${{ inputs.GERRIT_REFSPEC }}
+          gerrit-refspec: ${{ inputs.GERRIT_REFSPEC }}
       - uses: actions/setup-python@v2
         with:
           python-version: "3.x"
